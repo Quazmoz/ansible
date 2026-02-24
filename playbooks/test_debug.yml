@@ -1,0 +1,12 @@
+---
+- name: Test Debugging Print
+  hosts: localhost
+  gather_facts: false
+  tasks:
+    - name: Print a generic debug message
+      ansible.builtin.debug:
+        msg: "AWX project sync and playbook execution are working correctly!"
+
+    - name: Print all variables passed to this job
+      ansible.builtin.debug:
+        var: hostvars[inventory_hostname]

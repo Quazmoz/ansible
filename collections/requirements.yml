@@ -1,0 +1,8 @@
+---
+# Requirements file for collections
+# Example:
+# collections:
+#   - name: awx.awx
+#     version: 22.0.0
+#   - name: community.general
+#   - name: ansible.windows

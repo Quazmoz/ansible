@@ -1,0 +1,5 @@
+---
+# Provide variables that apply to all hosts here
+# Make sure to keep secrets in the AWX Credential Manager, not here!
+
+ansible_user: "homelab_admin" # Example variable, can be overridden in AWX credentials

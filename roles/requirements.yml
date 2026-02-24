@@ -1,0 +1,6 @@
+---
+# Requirements file for custom roles (often from Ansible Galaxy or private git repositories)
+# Example:
+# - src: geerlingguy.docker
+# - src: https://github.com/geerlingguy/ansible-role-ntp.git
+#   name: geerlingguy.ntp

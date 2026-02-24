@@ -1,0 +1,11 @@
+---
+- name: Test Ping Connection
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: Ping the host
+      ansible.builtin.ping:
+
+    - name: Win Ping the host (for windows)
+      ansible.windows.win_ping:
+      when: ansible_os_family == 'Windows' or inventory_hostname is search('win')
